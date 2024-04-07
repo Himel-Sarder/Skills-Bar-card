@@ -1,0 +1,180 @@
+/*
+Coded by---
+-----------------------------------------------------------------------------------------------
+Himel Sarder
+Bachelor of Engineering (B.E)
+Dept. of Computer Science and Engineering
+Bangamata Sheikh Fhojilatunnesa Mujib Science and Technology University, Jamalpur, Bangladesh
+-----------------------------------------------------------------------------------------------
+*/
+        /* GLOBAL STYLES */
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* DEMO-SPECIFIC STYLES */
+        .typewriter h1 {
+            color: #0c0c0c;
+            font-size: 110%;
+            font-family: "EB Garamond", serif;
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            border-right: .10em solid black; /* The typewriter cursor */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .10em; /* Adjust as needed */
+            animation: 
+                typing 3s steps(30, end),
+                blink-caret .5s step-end infinite;
+            
+                position: absolute;
+                top: 40%;
+                left: 12%;
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 75% }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: black }
+        }
+
+        /* Your existing styles */
+        .box {
+            width: 300px;
+            height: 500px;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+            transform: translate3d(0, 0, 0);
+            box-shadow: 2px 2px 10px grey;
+        }
+
+        .box img {
+            border-radius: 10%; /* Add border-radius for round shape */
+            width: 100px; /* Adjust width as needed */
+            height: 100px; /* Adjust height as needed */
+            position: absolute;
+            top: 20%; /* Center vertically */
+            left: 50%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center image */
+            border: 5px solid white;
+            z-index: 10; /* Ensure image is behind waves */
+        }
+
+        .box .text1 {
+            position: absolute;
+            top: 33%;
+            font-size: larger;
+            font-weight: bold;
+            /*bottom: 10px; /* Adjust distance from the bottom */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Center horizontally */
+            color: rgb(10, 10, 10); /* Text color */
+            font-size: 25px; /* Adjust font size */
+            font-family: "EB Garamond", serif; /* Specify font family */
+            z-index: 10; /* Ensure text is above waves */
+        }
+
+        .wave {
+            opacity: .4;
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            background: #0af;
+            width: 500px;
+            height: 460px;
+            margin-left: -250px;
+            margin-top: -250px;
+            transform-origin: 50% 48%;
+            border-radius: 43%;
+            animation: drift 3000ms infinite linear;
+        }
+        .wave.-three {
+            animation: drift 5000ms infinite linear;
+        }
+        .wave.-two {
+            animation: drift 7000ms infinite linear;
+            opacity: .1;
+            background: rgb(4, 47, 95);
+        }
+        .box:after {
+            content: '';
+            display: block;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom,
+            rgba(#cd3d6d, 1),
+            rgba(#68b0f8, 0) 80%,
+            rgba(white, .5));
+            z-index: 11;
+            transform: translate3d(0, 0, 0);
+        }
+        @keyframes drift {
+            from {
+                transform: rotate(0deg);
+            }
+            from {
+                transform: rotate(360deg);
+            }
+        }
+
+                /* Skill Bar Styles */
+        .skills {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70%;
+            max-width: 300px;
+        }
+
+        .skill {
+            margin-bottom: 1px;
+        }
+
+        .skill-name {
+            font-size: 13px;
+            font-weight: bold;
+            margin-bottom: 1px;
+            color: #333; /* Darken the color for better readability */
+        }
+
+        .skill-bar {
+            background-color: rgba(0, 0, 0, 0.1); /* Add some transparency to the background */
+            height: 7px;
+            border-radius: 5px;
+            overflow: hidden; /* Hide overflowing parts of the skill level */
+            box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+        }
+
+        .skill-level {
+            height: 100%;
+            background: linear-gradient(to right, #0af, #0ff); /* Gradient background for a nice effect */
+            border-radius: 5px;
+            animation: fill 6s ease-in-out forwards; /* Add animation to fill the bars */
+        }
+
+        @keyframes fill {
+            from { width: 0; }
+            to { width: var(--percentage); }
+        }
+
+/*
+Coded by---
+-----------------------------------------------------------------------------------------------
+Himel Sarder
+Bachelor of Engineering (B.E)
+Dept. of Computer Science and Engineering
+Bangamata Sheikh Fhojilatunnesa Mujib Science and Technology University, Jamalpur, Bangladesh
+-----------------------------------------------------------------------------------------------
+*/
