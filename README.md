@@ -2,6 +2,8 @@
 ![W](https://github.com/Himel-Sarder/Skills-Bar-card/assets/143216886/e4cde809-fe88-4030-adcc-b1ae1003a9cb)
 
 This project showcases a typewriter animation effect implemented using HTML and CSS, along with skill bars representing proficiency levels in different programming languages and technologies. The combination of the typewriter animation and skill showcase creates an engaging and informative display for personal portfolios or project presentations.
+## Demo   
+https://github.com/Himel-Sarder/Skills-Bar-card.git
 
 ## Key Features
 
