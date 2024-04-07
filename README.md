@@ -32,10 +32,10 @@ To incorporate the typewriter animation and skill showcase into your projects:
 - Credit to the creators of the "EB Garamond" font for offering a stylish and elegant typography option for web projects.
 
 ## Code   ✅
-Coded by---
-Himel Sarder
-Bachelor of Engineering (B.E)
-Dept. of Computer Science and Engineering
+Coded by---   
+Himel Sarder   
+Bachelor of Engineering (B.E)   
+Dept. of Computer Science and Engineering   
 Bangamata Sheikh Fhojilatunnesa Mujib Science and Technology University, Jamalpur, Bangladesh
 
 ## License ✅
