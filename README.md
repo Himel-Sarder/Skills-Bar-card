@@ -4,7 +4,7 @@
 
 This project showcases a typewriter animation effect implemented using HTML and CSS, along with skill bars representing proficiency levels in different programming languages and technologies. The combination of the typewriter animation and skill showcase creates an engaging and informative display for personal portfolios or project presentations.
 ## Demo ✅
-https://github.com/Himel-Sarder/Skills-Bar-card.git
+[Click Here for Preview](https://himel-sarder.github.io/Skills-Bar-card/)
 
 ## Key Features ✅
 
@@ -30,6 +30,13 @@ To incorporate the typewriter animation and skill showcase into your projects:
 
 - The project draws inspiration from various typewriter animation and skill bar implementations found in online tutorials and examples.
 - Credit to the creators of the "EB Garamond" font for offering a stylish and elegant typography option for web projects.
+
+## Code   ✅
+Coded by---
+Himel Sarder
+Bachelor of Engineering (B.E)
+Dept. of Computer Science and Engineering
+Bangamata Sheikh Fhojilatunnesa Mujib Science and Technology University, Jamalpur, Bangladesh
 
 ## License ✅
 
